@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Admin Panel</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+<header>
+
+<h1>👨‍💻 Admin Panel</h1>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="notes.html">Notes</a>
+<a href="dashboard.html">Dashboard</a>
+</nav>
+
+</header>
+
+
+<section class="hero">
+
+
+<div class="card">
+
+<h2>Upload Study Material</h2>
+
+<input type="text" placeholder="Subject Name">
+
+<br><br>
+
+<input type="text" placeholder="PDF Link">
+
+<br><br>
+
+<button onclick="addMaterial()">
+Add Notes
+</button>
+
+
+<p id="adminMessage"></p>
+
+</div>
+
+
+
+<div class="card">
+
+<h2>Add Quiz Question</h2>
+
+<input type="text" placeholder="Question">
+
+<br><br>
+
+<input type="text" placeholder="Correct Answer">
+
+<br><br>
+
+<button onclick="addQuiz()">
+Add Question
+</button>
+
+
+</div>
+
+
+</section>
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
